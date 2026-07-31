@@ -51,7 +51,9 @@
             "champion_gift_to_event",
             "champion_gift_in_event",
             "champion_gift_to_event_center"
-        ]
+        ],
+        "timeout": 10000,
+        "on_error": "back_main_screen_and_stop"
     },
     "champion_gift_to_event": {
         "recognition": "TemplateMatch",
